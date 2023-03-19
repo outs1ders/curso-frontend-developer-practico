@@ -44,5 +44,6 @@ function toggleCartMenu(){
 
 	aside.classList.toggle('inactive');
 	
-	
 }
+
+
