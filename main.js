@@ -71,23 +71,27 @@ function closeProductDetailAside(){
 
 // lista de product
 const productList = [];
-productList.push({
-	name: 'bike',
-	price : 120,
-	img : 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
-});
 
-productList.push({
-	name: 'Pantalla',
-	price : 250,
-	img : 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
-});
+ for (i = 0; i < 20; i++){
+	productList.push({
+		name: 'bike',
+		price : 120,
+		img : 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+	});
 
-productList.push({
-	name: 'Pc',
-	price : 500,
-	img : 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
-});
+	productList.push({
+		name: 'Pantalla',
+		price : 250,
+		img : 'https://images.pexels.com/photos/777001/pexels-photo-777001.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+	});
+
+	productList.push({
+		name: 'Pc',
+		price : 500,
+		img : 'https://images.pexels.com/photos/461064/pexels-photo-461064.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+	});
+ }
+
 
 function renderProducts(arr){
 
